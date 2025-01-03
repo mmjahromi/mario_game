@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <!-- User Input Section -->
+        <div class="user-input">
+            <label for="username">Enter your username:</label>
+            <input type="text" id="username" placeholder="Enter your username">
+            <button id="startGameButton">Start Game</button>
+        </div>
+
+        <!-- Game Canvas -->
+        <canvas id="gameCanvas"></canvas>
+
+        <!-- Leaderboard Section -->
+        <div class="leaderboard">
+            <h3>Leaderboard</h3>
+            <table id="leaderboardTable">
+                <thead>
+                    <tr>
+                        <th>Rank</th>
+                        <th>Player</th>
+                        <th>Level</th>
+                        <th>Time (s)</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,132 @@
+/* Body Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #87ceeb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Game Container Styles */
+.game-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #000;
+    background-color: #cfe2f3;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    max-width: 800px;
+    width: 100%;
+}
+
+/* Canvas Styles */
+canvas {
+    display: block;
+    border: 2px solid #000;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: white;
+    width: 100%;
+    max-width: 800px;
+    height: 400px;
+}
+
+/* User Input Styles */
+.user-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.user-input label {
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+input {
+    padding: 5px;
+    font-size: 16px;
+    width: 200px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Leaderboard Styles */
+.leaderboard {
+    margin-top: 20px;
+    background-color: white;
+    border: 1px solid #000;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+
+.leaderboard h3 {
+    margin: 0 0 10px 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #4caf50;
+}
+
+.leaderboard table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+.leaderboard th,
+.leaderboard td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.leaderboard th {
+    background-color: #4caf50;
+    color: white;
+    text-transform: uppercase;
+}
+
+.leaderboard tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.leaderboard tr:hover {
+    background-color: #ddd;
+}
+
+.leaderboard td {
+    font-size: 14px;
+}
+
+.leaderboard td:first-child {
+    font-weight: bold;
+    color: #333;
+}
